@@ -38,5 +38,9 @@
   "SearchEvent": {
     "dataSource": "db",
     "public": true
+  },
+  "attachment": {
+    "dataSource": "storage",
+    "public": true
   }
 }
