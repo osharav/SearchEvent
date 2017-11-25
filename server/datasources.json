@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "mongodb"
+  },
+  "mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "SE_DATA",
+    "password": "",
+    "name": "mongo",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

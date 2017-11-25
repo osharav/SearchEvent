@@ -1,0 +1,43 @@
+{
+  "name": "SearchEvent",
+  "plural": "SearchEvents",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string",
+      "required": true,
+      "default": "LostAndFound"
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "StartingPoint": {
+      "type": "geopoint"
+    },
+    "Users": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
