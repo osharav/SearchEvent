@@ -1,6 +1,6 @@
 {
-  "name": "SearchEvent",
-  "plural": "SearchEvents",
+  "name": "EmergencyEvent",
+  "plural": "EmergencyEvents",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
