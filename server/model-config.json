@@ -36,7 +36,7 @@
     "public": false
   },
   "SearchEvent": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "attachment": {
