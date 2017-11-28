@@ -7,27 +7,30 @@
     "validateUpsert": true
   },
   "properties": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "string"
     },
-    "Category": {
+    "category": {
       "type": "string",
       "required": true,
-      "default": "LostAndFound"
+      "default": "Dog"
     },
     "lastSeen": {
       "type": "date",
       "required": true
     },
+    "address": {
+      "type": "string"
+    },
     "createdOn": {
       "type": "date",
       "required": true
     },
-    "StartingPoint": {
+    "startingPoint": {
       "type": "geopoint"
     },
     "Users": {
