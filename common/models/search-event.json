@@ -2,11 +2,16 @@
   "name": "EmergencyEvent",
   "plural": "EmergencyEvents",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "id" :true
+    },
     "name": {
       "type": "string",
       "required": true
