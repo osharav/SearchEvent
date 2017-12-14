@@ -13,26 +13,26 @@
       "./mixins"
     ]
   },
-  "User": {
-    "dataSource": "db"
+  "user": {
+    "dataSource": "mongo"
   },
-  "AccessToken": {
-    "dataSource": "db",
+  "accessToken": {
+    "dataSource": "mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "EmergencyEvent": {
@@ -42,5 +42,13 @@
   "attachment": {
     "dataSource": "storage",
     "public": true
+  },
+  "userCredential": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "userIdentity": {
+    "dataSource": "mongo",
+    "public": false
   }
 }
