@@ -93,7 +93,6 @@
     "strategy": "FacebookTokenStrategy",
     "clientID": "509040342800793",
     "clientSecret": "985c9df14cd0bd020e1e515e43b6e1e4",
-    "profileFields": ["gender", "name", "id", "email"],
     "callbackURL": " /auth/facebook-token/callback"
   },
   "google-link": {
